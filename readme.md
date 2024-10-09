@@ -98,5 +98,5 @@ The experimental results demonstrate the efficacy of our memory reduction strate
 | ChatGLM3-6B   | 6.2B     | 28302     | 25180       | **11.03**   | ✓          |
 | Falcon-7B     | 6.9B     | 30187     | 26719       | **11.49**   | ✓          |
 
-### Equivalence to the Original Algorithms
+## Equivalence to the Original Algorithms
 The memory-reduced variants AdamW-R and Adan-R maintain exact identical training dynamics as their original counterparts when initialized with the same random seed, as indicated by Table 1 of our paper. While Lion-R introduces a minor change in the computational sequence due to variable substitution, it retains theoretical equivalence with the original Lion optimizer, with a minimal impact on the overall optimization outcomes.
