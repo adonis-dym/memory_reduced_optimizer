@@ -1,6 +1,6 @@
 # Reducing Memory Footprint in Deep Network Training by Gradient Space Reutilization
 
-This repository contains the source code for the paper "Reducing Memory Footprint in Deep Network Training by Gradient Space Reutilization," which proposes to reuse the oldest gradient space for storing the intermediate variables once it is no longer needed. We apply this method on several mainstream optimizers to get the memory reduced variants, named Adam_R, Adan_R, and Lion_R, respectively.
+This repository contains the source code for the paper "Reducing Memory Footprint in Deep Network Training by Gradient Space Reutilization," which proposes to reuse the oldest gradient space for storing the intermediate variables once it is no longer needed. We apply this method on several mainstream optimizers to obtain the memory reduced variants, named Adam_R, Adan_R, and Lion_R, respectively.
 
 ## Citation
 If you find this work useful, please cite this paper and also star this repository. Thanks!
@@ -15,7 +15,7 @@ If you find this work useful, please cite this paper and also star this reposito
 }
 ```
 ## News
-Our paper won the PRCV **_Best Paper Reward!_**  🎉🎉🎉
+Our paper won the PRCV **_Best Paper Award!_**  🎉🎉🎉
 
 ## Experimental Results
 The experimental results demonstrate the efficacy of our memory reduction strategies across various model architectures. Below are the summarized results showing the peak memory usage and savings achieved with the memory-reduced variants of the optimizers.
