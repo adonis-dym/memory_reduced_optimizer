@@ -17,6 +17,17 @@ If you find this work useful, please cite this paper and also star this reposito
 ## News
 Our paper won the PRCV **_Best Paper Award!_**  🎉🎉🎉
 
+## Usage
+Switching to the memory-reduced optimizers is straightforward. Simply replace the standard optimizer import with the corresponding memory-reduced variant. For example:
+```python
+# Standard AdamW optimizer
+from torch.optim import AdamW
+
+# Memory-reduced AdamW-R optimizer
+from AdamW_R import AdamW_R
+```
+Place the provided optimizer files in your project directory, and you’re ready to go!
+
 ## Experimental Results
 The experimental results demonstrate the efficacy of our memory reduction strategies across various model architectures. Below are the summarized results showing the peak memory usage and savings achieved with the memory-reduced variants of the optimizers.
 
